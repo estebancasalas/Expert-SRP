@@ -4,10 +4,10 @@ namespace SRP
 {
     public class Biblioteca
     {
-        public Libro Libro {get; private set;}
-        public UbicacionLibro Ubicacion {get; private set;}
+        public Libro Libro {get; set;}
+        public UbicacionLibro Ubicacion {get; set;}
 
-        public void AlmacenarLibro(String libro, String ubicacion)  
+        public Biblioteca(Libro libro, UbicacionLibro ubicacion)  
         {
             this.Libro = libro;
             this.Ubicacion = ubicacion;
