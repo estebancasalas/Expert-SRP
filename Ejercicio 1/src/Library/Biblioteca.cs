@@ -1,6 +1,4 @@
 using System;
-using Libro;
-using UbicacionLibro;
 
 namespace SRP
 {
