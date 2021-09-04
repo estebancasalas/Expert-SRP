@@ -5,9 +5,9 @@ namespace SRP
     public class Libro
     {
 
-        public string Titulo { get ; private set; } // Faltaban metodos set privados
-        public string Autor { get ; private set; } // Faltaban metodos set privados
-        public string Codigo { get ; private set; } // Faltaban metodos set privados
+        public string Titulo { get ; private set; } // Faltan metodos set privados
+        public string Autor { get ; private set; } // Faltan metodos set privados
+        public string Codigo { get ; private set; } // Faltan metodos set privados
         /*
         public string SectorBiblioteca { get ; set; }  // Atributos que le deberían corresponder a otra clase
         public string EstanteBiblioteca { get ; set; } // Atributos que le deberían corresponder a otra clase
