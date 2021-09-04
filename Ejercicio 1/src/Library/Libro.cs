@@ -5,10 +5,10 @@ namespace SRP
     public class Libro
     {
 
-        public string Titulo { get ; }
-        public string Autor { get ; }
-        public string Codigo { get ;  }
-        public string SectorBiblioteca { get ; set; }
+        public string Titulo { get ; } // Faltan metodos set privados
+        public string Autor { get ; } // Faltan metodos set privados
+        public string Codigo { get ;  } // Faltan metodos set privados
+        public string SectorBiblioteca { get ; set; } 
         public string EstanteBiblioteca { get ; set; }
 
         public Libro(String titulo, String autor, String codigo)
